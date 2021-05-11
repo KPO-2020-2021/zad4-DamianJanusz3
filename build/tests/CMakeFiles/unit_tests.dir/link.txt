@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/unit_tests.dir/main.cpp.o CMakeFiles/unit_tests.dir/dummy.cpp.o ../CMakeFiles/program.dir/src/example.cpp.o ../CMakeFiles/program.dir/src/lacze_do_gnuplota.cpp.o ../CMakeFiles/program.dir/src/matrix.cpp.o ../CMakeFiles/program.dir/src/vector.cpp.o ../CMakeFiles/program.dir/src/figure.cpp.o  -o ../unit_tests 
