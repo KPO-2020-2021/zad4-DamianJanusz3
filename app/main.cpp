@@ -16,95 +16,58 @@
 #include "example.h"
 #include "vector.hh"
 #include "matrix.hh"
-#include "../inc/lacze_do_gnuplota.hh"
+#include "figure.hh"
+#include "../include/lacze_do_gnuplota.hh"
 
 /*!
  * Simple main program that demontrates how access
  * CMake definitions (here the version number) from source code.
  * 
  * EDIT: dodane kreowanie wektorow i macierzy plus obsluga lacza do gnuplota
- */
+ *///
 
-#define DL_KROTKI_BOK  100
-#define DL_DLUGI_BOK   150
+
 
 /*!
- * Przyklad zapisu wspolrzednych zbioru punktow do strumienia wyjściowego.
+ * Zapis wspolrzednych zbioru punktow do strumienia wyjściowego.
  * Dane sa odpowiednio sformatowane, tzn. przyjęto notację stałoprzecinkową
  * z dokładnością do 10 miejsca po przecinku. Szerokość wyświetlanego pola 
  * to 16 miejsc, sposób wyrównywania - do prawej strony.
- * \param[in] StrmWy - strumien wyjsciowy, do ktorego maja zostac zapisane
+ * \param[in] strm - strumien wyjsciowy, do ktorego maja zostac zapisane
  *                     kolejne wspolrzedne.
- * \param[in] Przesuniecie - ten parameter jest tylko po to, aby pokazać
- *                          mozliwosc zmiany wspolrzednych i prostokata
- *                          i zmiane jego polorzenia na okienku graficznym
- *                         rysownym przez gnuplota.
+ * \param[in] rectan - zmienna typu figure zapisywana do strumienia wyjściowego.
  * \retval true - gdy operacja zapisu powiodła się,
  * \retval false - w przypadku przeciwnym.
  */
-void PrzykladZapisuWspolrzednychDoStrumienia( std::ostream&     StrmWy, 
-                                              double       Przesuniecie
-                                            )
-{
-   //---------------------------------------------------------------
-   // To tylko przyklad !!!
-   // W programie nalezy uzywać pojęcia wektora, a nie oddzielnych 
-   // zmiennych do reprezentowania wspolrzednych!
-   //
-  double  x1, y1, x2, y2, x3, y3, x4, y4; 
-
-  x1 = y1 = 10;
-  x2 = x1 + DL_DLUGI_BOK;  y2 = y1;
-  x3 = x2;  y3 = y2 + DL_KROTKI_BOK;
-  x4 = x3 - DL_DLUGI_BOK; y4 = y3;
-
-
-  StrmWy << std::setw(16) << std::fixed << std::setprecision(10) << x1+Przesuniecie 
-         << std::setw(16) << std::fixed << std::setprecision(10) << y1+Przesuniecie << std::endl;
-  StrmWy << std::setw(16) << std::fixed << std::setprecision(10) << x2+Przesuniecie 
-         << std::setw(16) << std::fixed << std::setprecision(10) << y2+Przesuniecie << std::endl;
-  StrmWy << std::setw(16) << std::fixed << std::setprecision(10) << x3+Przesuniecie 
-         << std::setw(16) << std::fixed << std::setprecision(10) << y3+Przesuniecie << std::endl;
-  StrmWy << std::setw(16) << std::fixed << std::setprecision(10) << x4+Przesuniecie 
-         << std::setw(16) << std::fixed << std::setprecision(10) << y4+Przesuniecie << std::endl;
-  StrmWy << std::setw(16) << std::fixed << std::setprecision(10) << x1+Przesuniecie 
-         << std::setw(16) << std::fixed << std::setprecision(10) << y1+Przesuniecie << std::endl; 
-                             // Jeszcze raz zapisujemy pierwszy punkt,
-                             // aby gnuplot narysowal zamkniętą linię.
+void savetostream( std::ostream& strm, Figure rectan) {
+  strm <<std::setw(16) << std::fixed << std::setprecision(10)<< rectan << std::endl;
 }
 
-
-
 /*!
- * Przyklad zapisu wspolrzednych zbioru punktow do pliku, z ktorego
+ * Zapis wspolrzednych zbioru punktow do pliku, z ktorego
  * dane odczyta program gnuplot i narysuje je w swoim oknie graficznym.
- * \param[in] sNazwaPliku - nazwa pliku, do którego zostana zapisane
+ * \param[in] filename - nazwa pliku, do którego zostana zapisane
  *                          wspolrzędne punktów.
- * \param[in] Przesuniecie - ten parameter jest tylko po to, aby pokazać
- *                          mozliwosc zmiany wspolrzednych i prostokata
- *                          i zmiane jego polorzenia na okienku graficznym
- *                         rysownym przez gnuplota.
+ * \param[in] rectan - zmienna typu figure zapisywana do strumienia wyjściowego.
  * \retval true - gdy operacja zapisu powiodła się,
  * \retval false - w przypadku przeciwnym.
  */
-bool PrzykladZapisuWspolrzednychDoPliku( const char  *sNazwaPliku,
-                                         double       Przesuniecie
-                                       )
-{
-  std::ofstream  StrmPlikowy;
+bool savetofile(const char *filename, Figure rectan) {
+  std::ofstream  filestream;
 
-  StrmPlikowy.open(sNazwaPliku);
-  if (!StrmPlikowy.is_open())  {
-    std::cerr << ":(  Operacja otwarcia do zapisu \"" << sNazwaPliku << "\"" << std::endl
+  filestream.open(filename);
+  if (!filestream.is_open())  {
+    std::cerr << ":(  Operacja otwarcia do zapisu \"" << filename << "\"" << std::endl
 	 << ":(  nie powiodla sie." << std::endl;
     return false;
   }
 
-  PrzykladZapisuWspolrzednychDoStrumienia(StrmPlikowy, Przesuniecie);
+  savetostream(filestream, rectan);
 
-  StrmPlikowy.close();
-  return !StrmPlikowy.fail();
+  filestream.close();
+  return !filestream.fail();
 }
+
 
 int main() {
   std::cout << "Project Rotation 2D based on C++ Boiler Plate v"
@@ -116,23 +79,11 @@ int main() {
             << "."
             << PROJECT_VERSION_TWEAK /* zmiany estetyczne itd. */
             << std::endl;
-  // std::system("cat ../LICENSE");
-  // do zadania Rotacja 2D
-  std::cout << "Vector:" << std::endl;
-  Vector tmpV1 = Vector();
-  std::cout << "Vector - konstruktor bezparametryczny:\n" << tmpV1 << std::endl;
-  double argumentsV[] = {1.0, 2.0};
-  Vector tmpV2 = Vector(argumentsV);
-  std::cout << "Vector - konstruktor parametryczny:\n" << tmpV2 << std::endl;
+  
 
-  std::cout << "Matrix:" << std::endl;
-  Matrix tmpM1 = Matrix();
-  std::cout << "Matrix - konstruktor bezparametryczny:\n" << tmpM1 << std::endl;
-  double argumentsM[][SIZE] = {{1.0, 2.0},{3.0, 4.0}};
-  Matrix tmpM2 = Matrix(argumentsM);
-  std::cout << "Matrix - konstruktor parametryczny:\n" << tmpM2 << std::endl;
 
-    PzG::LaczeDoGNUPlota  Lacze;  // Ta zmienna jest potrzebna do wizualizacji
+
+PzG::LaczeDoGNUPlota  Lacze;  // Ta zmienna jest potrzebna do wizualizacji
                                 // rysunku prostokata
 
    //-------------------------------------------------------
@@ -154,20 +105,171 @@ int main() {
    //
   Lacze.ZmienTrybRys(PzG::TR_2D);
 
-  PrzykladZapisuWspolrzednychDoStrumienia(std::cout,0);
-  if (!PrzykladZapisuWspolrzednychDoPliku("../datasets/prostokat.dat",0)) return 1;
-  Lacze.Rysuj(); // <- Tutaj gnuplot rysuje, to co zapisaliśmy do pliku
-  std::cout << "Naciśnij ENTER, aby kontynuowac" << std::endl;
-  std::cin.ignore(100000,'\n');
-   //----------------------------------------------------------
-   // Ponownie wypisuje wspolrzedne i rysuje prostokąt w innym miejscu.
-   //
-  PrzykladZapisuWspolrzednychDoStrumienia(std::cout,50);
-  if (!PrzykladZapisuWspolrzednychDoPliku("../datasets/prostokat.dat",50)) return 1;
-  Lacze.Rysuj(); // <- Tutaj gnuplot rysuje, to co zapisaliśmy do pliku
-  std::cout << "Naciśnij ENTER, aby kontynuowac" << std::endl;
-  std::cin.ignore(100000,'\n');
+  
+typedef Vector<double,2u>  Vector2D;
+  double angle;
+  int amount;
+  Matrix<double,SIZE> matt;
+  Vector2D vecc;
+  Figure rectan;
+  char action;
 
+//*********tu na wszeli wypadek zainicjalizowana jest  zmienna rectan z zerami*********//
+  double arg1[]={0,0}; double arg2[]={0,0}; double arg3[]={0,0}; double arg4[]={0,0};
+  Vector<double,SIZE> vec1=arg1; Vector<double,SIZE> vec2=arg2; Vector<double,SIZE> vec3=arg3;
+  Vector<double,SIZE> vec4=arg4; Vector<double,SIZE> vec5=arg4;
+  Vector<double,SIZE> ar[]={vec1,vec2,vec3,vec4,vec5};
+  rectan = Figure(ar);
+
+
+
+
+
+
+
+
+  /***** część związana z mnożeniem macierzy i liczeniem wyznacznika*********
+ double args[3][3]={{1,2,5},{2,3,6},{7,8,9}}; double args2[3][3]={{1,2,2},{1,2,2},{1,2,2}};
+  Matrix m( args); Matrix p(args2); Matrix r;
+r=multiply(m,p,1);
+std::cout<< r;
+
+  Vector v;
+  int n=2;
+  v=m.gaussdet(n);
+std::cout <<v<< std::endl;
+*/
+
+
+//wczytanie prostokąta z cin
+  rectan.read(std::cin, std::cout);
+
+
+  savetostream(std::cout,rectan);//zapis prostokąta 
+
+  std::cout<< std::endl;
+  rectan=rectan.length(rectan);
+  rectan.showlength(rectan, std::cout);
+
+  if (!savetofile("../datasets/prostokat.dat",rectan)) return 1;
+  Lacze.Rysuj(); // <- Tutaj gnuplot rysuje, to co zapisaliśmy do pliku
+  std::cout << "Naciśnij ENTER, aby kontynuowac" << std::endl;
+  std::cin.ignore(100000,'\n');//////////////wyświetlenie na gnuplocie
+
+  std::cout<< std::endl;
+  std::cout << "o - obrot prostokata o zadany kat" << std::endl;
+  std::cout << "p - przesuniecie prostokata o zadany wektor" << std::endl;
+  std::cout << "w - wyswietlenie wspolrzednych wierzcholkow" << std::endl;
+  std::cout << "m - wyswietl menu" << std::endl;
+  std::cout << "k - koniec dzialania programu" << std::endl;
+  std::cout<< std::endl;
+
+  
+
+
+do {
+
+std::cout << std::endl;
+std::cout <<"Twoj wybor? (m - menu) > ";
+  std::cin >> action;
+  std::cout << std::endl;
+
+switch (action) {
+
+case 'm': {       //menu
+       std::cout << "o - obrot prostokata o zadany kat" << std::endl;
+       std::cout << "p - przesuniecie prostokata o zadany wektor" << std::endl;
+       std::cout << "w - wyswietlenie wspolrzednych wierzcholkow" << std::endl;
+       std::cout << "m - wyswietl menu" << std::endl;
+       std::cout << "k - koniec dzialania programu" << std::endl;
+       break;
+}
+
+case 'p': {       //przesunięcie o wektor
+  std::cout << " Wprowadz wspolrzedne wektora translacji w postaci dwoch liczb tzn. wspolrzednej x oraz y " << std::endl;
+  std::cin >> vecc;
+
+      if (std::cin.fail()==true) {
+      for ( int i=0; (std::cin.fail()==true && i<=1); ++i){
+      std::cin.clear();
+      std::cin.ignore(99999,'\n');
+      std::cout << "Błędny sposób zapisu spróbuj jeszcze raz!"<< std::endl;
+      std::cin >> vecc;
+      }
+      }
+  
+  rectan=rectan.move(vecc);
+  std::cout<< std::endl;
+  rectan=rectan.length(rectan);
+  rectan.showlength(rectan, std::cout);
+  savetostream(std::cout,rectan);//////////////zapis prostokąta do pliku
+  if (!savetofile("../datasets/prostokat.dat",rectan)) return 1;
+  Lacze.Rysuj(); // <- Tutaj gnuplot rysuje, to co zapisaliśmy do pliku
+  std::cout << "Naciśnij ENTER, aby kontynuowac" << std::endl;
+  std::cin.ignore(100000,'\n');//////////////wyświetlenie na gnuplocie
+  break;
+}
+
+case 'o': {           //obrót
+  std::cout << "Podaj wartosc kata obrotu w stopniach: ";
+  std::cin>>angle;
+
+      if (std::cin.fail()==true) {
+      for (int i=0; (std::cin.fail()==true && i<=1); i++){
+      std::cin.clear();
+      std::cin.ignore(99999,'\n');
+      std::cout << "Błędny sposób zapisu spróbuj jeszcze raz!"<< std::endl;
+      std::cin >> angle;
+      }
+      }
+  
+  std::cout << "Ile razy operacja obrotu ma byc powtorzona: ";
+  std::cin>>amount;
+
+      if (std::cin.fail()==true) {
+      for (int i=0; (std::cin.fail()==true && i<=1); i++){
+      std::cin.clear();
+      std::cin.ignore(99999,'\n');
+      std::cout << "Błędny sposób zapisu spróbuj jeszcze raz!"<< std::endl;
+      std::cin >> amount;
+      }
+      }
+
+  matt.make2D(angle);
+  rectan.rotate(matt, amount);
+  std::cout<< std::endl;
+  rectan=rectan.length(rectan);
+  rectan.showlength(rectan, std::cout);
+  savetostream(std::cout,rectan);//////////////zapis prostokąta do pliku
+  if (!savetofile("../datasets/prostokat.dat",rectan)) return 1;
+  Lacze.Rysuj(); // <- Tutaj gnuplot rysuje, to co zapisaliśmy do pliku
+  std::cout << "Naciśnij ENTER, aby kontynuowac" << std::endl;
+  std::cin.ignore(100000,'\n');//////////////wyświetlenie na gnuplocie
+  break;
+}
+
+case 'w': {         //wyświetlenie współrzędnych
+  std::cout << "ostatnia linijka to powtorzona wspolrzedna nr 1"<< std::endl;
+  std::cout << rectan;
+  
+  //////////////wyświetlenie na gnuplocie
+  break;
+}
+
+case 'k': {               //zamknięcie programu
+  std::cout << "Koniec dzialania programu" << std::endl;
+  break;
+}
+}
+
+
+}while(action!='k');
+
+
+
+
+
+  
   // Z bazy projektu-wydmuszki Boiler Plate C++:
   // Bring in the dummy class from the example source,
   // just to show that it is accessible from main.cpp.
