@@ -1,0 +1,29 @@
+/*!
+   \mainpage  Obroty figur 3D
+
+   Aplikacja ma za zadanie obracać figurę 3D i wyświetlać ją przez gnuplota
+
+   \section wazne-cechy Najważniejsze cechy
+
+   Główną częścią programu jest menu użytkownika przez które można 
+   dokonać następujących operacji: 
+   1.Obrót bryły o zadaną sekwencję kątów wokół wybranych osi i zadaną ilość razy
+   2.Przesunięcie bryły o zadany wektor
+   3.Wyświetlenie opcji menu
+   4.Wyświetlenie macierzy rotacji
+   5.Wyświetlenie współrzędnych wierzchołków bryły
+   6.Powtórzenie ostatniej sekwencji obrotów
+   7.Sprawdzenie dlugosci przeciwleglych bokow
+   8.Zakończenie działania programu
+   
+   Ponadtoprogram działa jedynie dla prostopadłościanów i sześcianów.
+
+  
+ */
+
+/*
+   \author  Damian Janusz
+   \date    05.23.2021
+   \version 1.0
+
+*/

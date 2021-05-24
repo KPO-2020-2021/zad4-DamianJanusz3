@@ -1,0 +1,1529 @@
+warning: The selected output language "polish" has not been updated
+since release 1.8.2.  As a result some sentences may appear in English.
+
+/home/lapidary/zad4-DamianJanusz3/prj/CMakeLists.txt:88: warning: Reached end of file while still inside a (nested) comment. Nesting level 1 (probable line reference: 52)
+/home/lapidary/zad4-DamianJanusz3/prj/src/cuboid.cpp:350: warning: The following parameters of operator &mat) are not documented:
+  parameter 'out'
+  parameter 'mat'
+/home/lapidary/zad4-DamianJanusz3/prj/include/matrix.hh:275: warning: The following parameters of operator>>(std::istream &in, Matrix &mat) are not documented:
+  parameter 'in'
+  parameter 'mat'
+/home/lapidary/zad4-DamianJanusz3/prj/include/matrix3x3.hh:22: warning: The following parameters of operator &mat) are not documented:
+  parameter 'out'
+  parameter 'mat'
+/home/lapidary/zad4-DamianJanusz3/prj/src/scene.cpp:49: warning: The following parameters of operator const &tmp) are not documented:
+  parameter 'out'
+  parameter 'tmp'
+/home/lapidary/zad4-DamianJanusz3/prj/include/vector.hh:227: warning: The following parameters of operator>>(std::istream &in, Vector &tmp) are not documented:
+  parameter 'in'
+  parameter 'tmp'
+/home/lapidary/zad4-DamianJanusz3/prj/README.md:3: warning: explicit link request to 'warunkach' could not be resolved
+/home/lapidary/zad4-DamianJanusz3/prj/README.md:4: warning: explicit link request to 'wyświetlaniu' could not be resolved
+/home/lapidary/zad4-DamianJanusz3/prj/include/cuboid.hh:30: warning: The following parameter of Cuboid::Cuboid(Vector tmp[VERTICES]) is not documented:
+  parameter 'tmp'
+/home/lapidary/zad4-DamianJanusz3/prj/include/cuboid.hh:34: warning: The following parameter of Cuboid::Cuboid(double tmp[SIDES]) is not documented:
+  parameter 'tmp'
+/home/lapidary/zad4-DamianJanusz3/prj/include/cuboid.hh:42: warning: The following parameter of Cuboid::length(Cuboid tmp) is not documented:
+  parameter 'tmp'
+/home/lapidary/zad4-DamianJanusz3/prj/include/cuboid.hh:66: warning: The following parameter of Cuboid::move(Vector move1) is not documented:
+  parameter 'move1'
+/home/lapidary/zad4-DamianJanusz3/prj/include/cuboid.hh:50: warning: The following parameter of Cuboid::operator()(int index) is not documented:
+  parameter 'index'
+/home/lapidary/zad4-DamianJanusz3/prj/include/cuboid.hh:46: warning: The following parameter of Cuboid::operator()(int index) const is not documented:
+  parameter 'index'
+/home/lapidary/zad4-DamianJanusz3/prj/include/cuboid.hh:62: warning: The following parameter of Cuboid::operator==(Cuboid m) is not documented:
+  parameter 'm'
+/home/lapidary/zad4-DamianJanusz3/prj/include/cuboid.hh:58: warning: The following parameter of Cuboid::operator[](int index) is not documented:
+  parameter 'index'
+/home/lapidary/zad4-DamianJanusz3/prj/include/cuboid.hh:54: warning: The following parameter of Cuboid::operator[](int index) const is not documented:
+  parameter 'index'
+/home/lapidary/zad4-DamianJanusz3/prj/include/cuboid.hh:78: warning: The following parameters of Cuboid::read(std::istream &strmi, std::ostream &strmo) are not documented:
+  parameter 'strmi'
+  parameter 'strmo'
+/home/lapidary/zad4-DamianJanusz3/prj/include/cuboid.hh:70: warning: The following parameters of Cuboid::rotate(Matrix m, int amount) are not documented:
+  parameter 'm'
+  parameter 'amount'
+/home/lapidary/zad4-DamianJanusz3/prj/include/cuboid.hh:74: warning: The following parameters of Cuboid::showlength(Cuboid tmp, std::ostream &strmo) const are not documented:
+  parameter 'tmp'
+  parameter 'strmo'
+/home/lapidary/zad4-DamianJanusz3/prj/include/matrix.hh:32: warning: The following parameter of Matrix::Matrix(double tmp[SIZE][SIZE]) is not documented:
+  parameter 'tmp'
+/home/lapidary/zad4-DamianJanusz3/prj/include/matrix.hh:68: warning: The following parameter of Matrix::gaussdet(int n) is not documented:
+  parameter 'n'
+/home/lapidary/zad4-DamianJanusz3/prj/include/matrix.hh:64: warning: The following parameter of Matrix::make3DX(type1 alfa) is not documented:
+  parameter 'alfa'
+/home/lapidary/zad4-DamianJanusz3/prj/include/matrix.hh:60: warning: The following parameter of Matrix::make3DY(type1 alfa) is not documented:
+  parameter 'alfa'
+/home/lapidary/zad4-DamianJanusz3/prj/include/matrix.hh:56: warning: The following parameter of Matrix::make3DZ(type1 alfa) is not documented:
+  parameter 'alfa'
+/home/lapidary/zad4-DamianJanusz3/prj/include/matrix.hh:48: warning: The following parameters of Matrix::operator()(unsigned int row, unsigned int column) are not documented:
+  parameter 'row'
+  parameter 'column'
+/home/lapidary/zad4-DamianJanusz3/prj/include/matrix.hh:52: warning: The following parameters of Matrix::operator()(unsigned int row, unsigned int column) const are not documented:
+  parameter 'row'
+  parameter 'column'
+/home/lapidary/zad4-DamianJanusz3/prj/include/matrix.hh:72: warning: The following parameter of Matrix::operator*(Matrix m) is not documented:
+  parameter 'm'
+/home/lapidary/zad4-DamianJanusz3/prj/include/matrix.hh:40: warning: The following parameter of Matrix::operator*(Vector tmp) is not documented:
+  parameter 'tmp'
+/home/lapidary/zad4-DamianJanusz3/prj/include/matrix.hh:44: warning: The following parameter of Matrix::operator+(Matrix tmp) is not documented:
+  parameter 'tmp'
+/home/lapidary/zad4-DamianJanusz3/prj/include/scene.hh:31: warning: The following parameters of Scene::Scene(Cuboid tmp1, Matrix tmp) are not documented:
+  parameter 'tmp1'
+  parameter 'tmp'
+/home/lapidary/zad4-DamianJanusz3/prj/include/scene.hh:39: warning: The following parameter of Scene::amount(int am) is not documented:
+  parameter 'am'
+/home/lapidary/zad4-DamianJanusz3/prj/include/vector.hh:37: warning: The following parameter of Vector::Vector(double tmp[SIZE]) is not documented:
+  parameter 'tmp'
+/home/lapidary/zad4-DamianJanusz3/prj/include/vector.hh:65: warning: The following parameter of Vector::operator&(const Vector &v) const is not documented:
+  parameter 'v'
+/home/lapidary/zad4-DamianJanusz3/prj/include/vector.hh:49: warning: The following parameter of Vector::operator*(const type &tmp) is not documented:
+  parameter 'tmp'
+/home/lapidary/zad4-DamianJanusz3/prj/include/vector.hh:41: warning: The following parameter of Vector::operator+(const Vector &v) is not documented:
+  parameter 'v'
+/home/lapidary/zad4-DamianJanusz3/prj/include/vector.hh:45: warning: The following parameter of Vector::operator-(const Vector &v) is not documented:
+  parameter 'v'
+/home/lapidary/zad4-DamianJanusz3/prj/include/vector.hh:53: warning: The following parameter of Vector::operator/(const type &tmp) is not documented:
+  parameter 'tmp'
+/home/lapidary/zad4-DamianJanusz3/prj/include/vector.hh:69: warning: The following parameter of Vector::operator==(const Vector &m) const is not documented:
+  parameter 'm'
+/home/lapidary/zad4-DamianJanusz3/prj/include/vector.hh:61: warning: The following parameter of Vector::operator[](int index) is not documented:
+  parameter 'index'
+/home/lapidary/zad4-DamianJanusz3/prj/include/vector.hh:57: warning: The following parameter of Vector::operator[](int index) const is not documented:
+  parameter 'index'
+error: md5 hash does not match for two different runs of /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a607c6977b193fecf29622110e6081625_icgraph.dot !
+/home/lapidary/zad4-DamianJanusz3/prj/src/lacze_do_gnuplota.cpp:273: warning: unable to resolve link to 'LaczeDoGNUPlota::DodajNazwe' for \link command
+/home/lapidary/zad4-DamianJanusz3/prj/include/lacze_do_gnuplota.hh:622: warning: unable to resolve link to 'LaczeDoGNUPlota::DodajNazwe' for \link command
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/doctest__fwd_8h__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/doctest__fwd_8h__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_54.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_54.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_1.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_1.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_exception_translator__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_exception_translator__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_ad55229220bf9ca74e6e0c6323bf672e1_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_ad55229220bf9ca74e6e0c6323bf672e1_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_39.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_39.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a5e7c7ae87d62b4e60cfe1f696a1f5146_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a5e7c7ae87d62b4e60cfe1f696a1f5146_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_stream__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_stream__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/size_8hh__dep__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/size_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_string_maker_3_01_r_01_c_1_1_5_01_4_a06144903aacd73ed31c2fb043be8abb0_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_string_maker_3_01_r_01_c_1_1_5_01_4_a06144903aacd73ed31c2fb043be8abb0_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_aaa8e4280d5662c04c96b9c040b21ad43_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_aaa8e4280d5662c04c96b9c040b21ad43_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_45.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_45.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_55.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_55.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_message_data__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_message_data__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_0.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_0.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/doctest_8h__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/doctest_8h__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/doctest__mpi_8h__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/doctest__mpi_8h__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/example_8cpp__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/example_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_36.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_36.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_a24b636e34e0d79ddddf94f9902a4c48c_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_a24b636e34e0d79ddddf94f9902a4c48c_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_test_case__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_test_case__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_string_maker_3_01_t_01_5_01_4_a79dfd2e72f48a1d9941b924d6ac23104_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_string_maker_3_01_t_01_5_01_4_a79dfd2e72f48a1d9941b924d6ac23104_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a842f2eb8acb85c4d849e24d5e6b9d328_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a842f2eb8acb85c4d849e24d5e6b9d328_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_subcase_signature__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_subcase_signature__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_string_maker__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_string_maker__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_abc87481328542dff0e3f8a55c842b44c_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_abc87481328542dff0e3f8a55c842b44c_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/cuboid_8hh__dep__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/cuboid_8hh__dep__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_42.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_42.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_ad55229220bf9ca74e6e0c6323bf672e1_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_ad55229220bf9ca74e6e0c6323bf672e1_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_adb894f73b88fb3b39d6c48d80451f5ff_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_adb894f73b88fb3b39d6c48d80451f5ff_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_subcase__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_subcase__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_a7c363141b7afdf0f71852393dbdf21ca_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_a7c363141b7afdf0f71852393dbdf21ca_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_52.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_52.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/src_2scene_8cpp__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/src_2scene_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_37.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_37.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder_a3a65c5e39a0c04ae8e2a7c34997a2e4d_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder_a3a65c5e39a0c04ae8e2a7c34997a2e4d_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_ab4df12a4ff9fad5f16edcc1c54f6c4fc_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_ab4df12a4ff9fad5f16edcc1c54f6c4fc_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a9e878a811f7bf0a615b3a39de3004673_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a9e878a811f7bf0a615b3a39de3004673_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_string_maker__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_string_maker__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a881bc2d0fe207d672e1debe830768a98_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a881bc2d0fe207d672e1debe830768a98_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a801d3d8ba364be7e05f0e27447521b8b_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a801d3d8ba364be7e05f0e27447521b8b_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_10.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_10.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a6ddb6cf1b744a0ae1d4e26b3c8dfa827_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a6ddb6cf1b744a0ae1d4e26b3c8dfa827_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/example_config_8h__dep__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/example_config_8h__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_i_context_scope_aa99357c233d6a040451628bc6a6c6c2e_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_i_context_scope_aa99357c233d6a040451628bc6a6c6c2e_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_43.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_43.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_adf69290bc23e8c7bf60a9bcf765ebc10_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_adf69290bc23e8c7bf60a9bcf765ebc10_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_53.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_53.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a828e011bb6028ab94eb14a3c7d8bd2c4_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a828e011bb6028ab94eb14a3c7d8bd2c4_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a5343d1b26df7f86767d5e7026c03bf0f_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a5343d1b26df7f86767d5e7026c03bf0f_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2scene_8cpp_a1fdaff8e7e53425c556aa40c4ccf8625_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2scene_8cpp_a1fdaff8e7e53425c556aa40c4ccf8625_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a013828c4e677241cc26aeea33f762710_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a013828c4e677241cc26aeea33f762710_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a94faa06e586eead4466fa2bef334e3a9_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a94faa06e586eead4466fa2bef334e3a9_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_abe04157d49d8c937f915d4c887df75b0_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_abe04157d49d8c937f915d4c887df75b0_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a8e23e6bb4c6982688652060dbe41385d_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a8e23e6bb4c6982688652060dbe41385d_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_approx_a62185fd4c09a63dab61bd893574d8473_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_approx_a62185fd4c09a63dab61bd893574d8473_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_11.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_11.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_48.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_48.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/src_2vector_8cpp__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/src_2vector_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_acec9ff072dd86af95225a8beb9c57298_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_acec9ff072dd86af95225a8beb9c57298_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_ae79cb8df06d35468dd0ba9f04c85802c_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_ae79cb8df06d35468dd0ba9f04c85802c_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/lacze__do__gnuplota_8cpp__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/lacze__do__gnuplota_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_adad8703f08950d173d2cb1426391fcdf_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_adad8703f08950d173d2cb1426391fcdf_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/example_8h__dep__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/example_8h__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_5.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_5.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder_a93cb6f180968d38cb0f18b08ec6c9000_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder_a93cb6f180968d38cb0f18b08ec6c9000_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_maker_base__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_maker_base__inherit__graph.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest__detail__test__suite__ns_a63d04c2e0ba35dff1e33cf0a24ec66c8_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest__detail__test__suite__ns_a63d04c2e0ba35dff1e33cf0a24ec66c8_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_4.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_4.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a468ff6c2b0a692bcf88a7a97a5de0a53_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a468ff6c2b0a692bcf88a7a97a5de0a53_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_dummy_a6453272d296d2ddf672e9ab0e7731c82_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_dummy_a6453272d296d2ddf672e9ab0e7731c82_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_49.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_49.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_ada1c21eff2277caf5b594bf70752a8f4_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_ada1c21eff2277caf5b594bf70752a8f4_cgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_i_context_scope_a067a2f9a9e53b010eb7b0a2ab88c76fd_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_i_context_scope_a067a2f9a9e53b010eb7b0a2ab88c76fd_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_query_data__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_query_data__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a607c6977b193fecf29622110e6081625_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a607c6977b193fecf29622110e6081625_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_assert_data__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_assert_data__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_46.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_46.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a44b7096ab36b923cd26664fe57755b5e_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a44b7096ab36b923cd26664fe57755b5e_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_context_scope__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_context_scope__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_context_options__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_context_options__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_3.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_3.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a0ff832be68bf666d856aefd539e1ce81_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a0ff832be68bf666d856aefd539e1ce81_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/vector_8hh__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/vector_8hh__incl.png"'
+sh: 1: dot: not found
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_aaeabe9bfc5ec6b94d8679e8d66d82fb1_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_aaeabe9bfc5ec6b94d8679e8d66d82fb1_icgraph.png"'
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/matrix_8hh__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/matrix_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_14.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_14.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_abb94f8a2dfc1af5358ea24ebda10d88c_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_abb94f8a2dfc1af5358ea24ebda10d88c_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_47.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_47.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/cuboid_8hh__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/cuboid_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a94d8527fd78048ed6cb32ffb29e5f903_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a94d8527fd78048ed6cb32ffb29e5f903_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a570279a22ca888528e87a426853a0288_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a570279a22ca888528e87a426853a0288_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_2.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_2.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/vector3_d_8hh__dep__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/vector3_d_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a3887426da16e0d12e6f0e270a767a6a5_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a3887426da16e0d12e6f0e270a767a6a5_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ac32accb42e937cf870de2f6865ea236a_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ac32accb42e937cf870de2f6865ea236a_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_20.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_20.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_acdef9c08c191987052fe12325c550ac7_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_acdef9c08c191987052fe12325c550ac7_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ae332e5e775f83a532884303780f79f9f_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ae332e5e775f83a532884303780f79f9f_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/scene_8hh__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/scene_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_15.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_15.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a468ff6c2b0a692bcf88a7a97a5de0a53_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a468ff6c2b0a692bcf88a7a97a5de0a53_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_maker_base_3_01true_01_4_ae1a11dee413117f36e335677589b047f_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_maker_base_3_01true_01_4_ae1a11dee413117f36e335677589b047f_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_acdf5282bcca88db933cfa0ac8ac851b9_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_acdf5282bcca88db933cfa0ac8ac851b9_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a7597c4be3476bd536431a4414df9c320_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a7597c4be3476bd536431a4414df9c320_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix_abcf88ddb8baba8268dab5ae521e48e36_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix_abcf88ddb8baba8268dab5ae521e48e36_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_test_case_data__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_test_case_data__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_approx_aae907c5ea1c4ac94e134db9e35da7dce_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_approx_aae907c5ea1c4ac94e134db9e35da7dce_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix_a83b5864d067a928d0da70800333f4976_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix_a83b5864d067a928d0da70800333f4976_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/doctest__fwd_8h__dep__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/doctest__fwd_8h__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_aef87d1f106d32d8c31af87335b44164d_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_aef87d1f106d32d8c31af87335b44164d_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_approx_af8df6b0af00fd875e5b6a0c30b86f636_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_approx_af8df6b0af00fd875e5b6a0c30b86f636_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_21.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_21.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder_a1b8102a492082b096a911e6d0964c591_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder_a1b8102a492082b096a911e6d0964c591_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/doctest__util_8h__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/doctest__util_8h__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_12.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_12.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_ab0486db3166d8db6580a221079af241f_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_ab0486db3166d8db6580a221079af241f_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_test_case__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_test_case__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_i_exception_translator__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_i_exception_translator__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder_a9bcc5d56e1764a7e07efebca55e43cce_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder_a9bcc5d56e1764a7e07efebca55e43cce_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_aba8eff2a50b9a930ec5ea3a010d769c9_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_aba8eff2a50b9a930ec5ea3a010d769c9_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a88324c53a70846fb6bc9d918ce21fd56_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a88324c53a70846fb6bc9d918ce21fd56_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a9fbc7b09f1660b236f12fc2adce6183d_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a9fbc7b09f1660b236f12fc2adce6183d_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_acd24518770a530bbfd6cd21297ada407_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_acd24518770a530bbfd6cd21297ada407_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix_af5a2c629a4ded5bb85c56c0908188560_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix_af5a2c629a4ded5bb85c56c0908188560_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a6879a79aea397a22e296e4afd0a90e3b_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a6879a79aea397a22e296e4afd0a90e3b_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_vector__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_vector__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_test_case_exception__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_test_case_exception__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a4308151b54e105d302803146a3238699_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a4308151b54e105d302803146a3238699_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/dir_59425e443f801f1f2fd8bbe4959a3ccf_dep.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/dir_59425e443f801f1f2fd8bbe4959a3ccf_dep.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a71b40611173c82709726b36715229179_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a71b40611173c82709726b36715229179_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder_a03686f862471728c2980d72e02980213_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder_a03686f862471728c2980d72e02980213_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a4352ffc196c4ba56045270e45baa2754_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a4352ffc196c4ba56045270e45baa2754_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_ab18d26f6c9e728c2fac77a501b8ca5f5_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_ab18d26f6c9e728c2fac77a501b8ca5f5_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_13.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_13.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/doctest_8cpp__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/doctest_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_aa708be1e2e3e83213920c0e3ef0502cc_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_aa708be1e2e3e83213920c0e3ef0502cc_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/dir_743cb49ce7a44135ae45e5ad5aee6a3e_dep.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/dir_743cb49ce7a44135ae45e5ad5aee6a3e_dep.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_aecddb31b1dc613674128b2b386493385_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_aecddb31b1dc613674128b2b386493385_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_subcase_signature_a07364f9dddf615f51e15f09b994d4bef_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_subcase_signature_a07364f9dddf615f51e15f09b994d4bef_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_ad1df797f12cd140e3d1739f2b30b64d2_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_ad1df797f12cd140e3d1739f2b30b64d2_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a27c6c308e814ad9384499bafc03f9e39_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a27c6c308e814ad9384499bafc03f9e39_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a95e7a0230c5897f0eae36718f51d2f05_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a95e7a0230c5897f0eae36718f51d2f05_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1mpi__sub__comm_a996f4afe7d50905d7b837f5a6163ecb9_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1mpi__sub__comm_a996f4afe7d50905d7b837f5a6163ecb9_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a360d10b305d4e64d753e99484308edbd_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a360d10b305d4e64d753e99484308edbd_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/graph_legend.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/graph_legend.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/doctest_8cpp_a7abd20a8cfb67ea45b4ec644c14b5a37_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/doctest_8cpp_a7abd20a8cfb67ea45b4ec644c14b5a37_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_relational_comparator_a51062ad46cd23c982838a0a51df70512_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_relational_comparator_a51062ad46cd23c982838a0a51df70512_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_acec9ff072dd86af95225a8beb9c57298_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_acec9ff072dd86af95225a8beb9c57298_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/build_2_c_make_files_2___c_make_l_t_o_test-_c_x_x_2src_2main_8cpp_a14bcd2d544b22300bba3863251393e0f_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/build_2_c_make_files_2___c_make_l_t_o_test-_c_x_x_2src_2main_8cpp_a14bcd2d544b22300bba3863251393e0f_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_af5dce5deeb8f25a4866efdff75e92975_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_af5dce5deeb8f25a4866efdff75e92975_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a60ffd50b9ee7adfcafc078f333aac8b6_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a60ffd50b9ee7adfcafc078f333aac8b6_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_24.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_24.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_18.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_18.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a855b8338bfe3e5d294d719f24b11090e_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a855b8338bfe3e5d294d719f24b11090e_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a6879a79aea397a22e296e4afd0a90e3b_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a6879a79aea397a22e296e4afd0a90e3b_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a34bd48f57c0fd69c12bf4127a1cacd8f_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a34bd48f57c0fd69c12bf4127a1cacd8f_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ab9a88e4c19857cd86a0f037d27bcad72_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ab9a88e4c19857cd86a0f037d27bcad72_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/build_2_c_make_files_2___c_make_l_t_o_test-_c_x_x_2src_2main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/build_2_c_make_files_2___c_make_l_t_o_test-_c_x_x_2src_2main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_ad14c56f7bc768189d039828aa871f60b_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_ad14c56f7bc768189d039828aa871f60b_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_19.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_19.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_i_context_scope__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_i_context_scope__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_test_case_data__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_test_case_data__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_acef5990b03a973c74ff2dd6cfc112913_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_acef5990b03a973c74ff2dd6cfc112913_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a60ad57a46c19db2b142468c3acac448a_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a60ad57a46c19db2b142468c3acac448a_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a95e7a0230c5897f0eae36718f51d2f05_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a95e7a0230c5897f0eae36718f51d2f05_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_30.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_30.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_a6ad6ed38fad73699bc718c248bccfc6d_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_a6ad6ed38fad73699bc718c248bccfc6d_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a426c38f4b2561bf6cfb10a370bddc3da_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a426c38f4b2561bf6cfb10a370bddc3da_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ad01ed889a01aa24f6efab31f8fd4327e_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ad01ed889a01aa24f6efab31f8fd4327e_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_ae9d3237d068fbf36488973d855677c67_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_ae9d3237d068fbf36488973d855677c67_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_25.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_25.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a1979700c536cfe9b5fecc328245f74ca_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a1979700c536cfe9b5fecc328245f74ca_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/dummy_8cpp_a19d977a4cbc8b8a06353d9a1a605fe3c_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/dummy_8cpp_a19d977a4cbc8b8a06353d9a1a605fe3c_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_stream_base__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_stream_base__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2vector_8cpp_ada1c21eff2277caf5b594bf70752a8f4_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2vector_8cpp_ada1c21eff2277caf5b594bf70752a8f4_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_16.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_16.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/matrix3x3_8hh__dep__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/matrix3x3_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_31.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_31.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a607c6977b193fecf29622110e6081625_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a607c6977b193fecf29622110e6081625_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_assert_data__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_assert_data__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a62af2900096f9958b330f609335b9e2d_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a62af2900096f9958b330f609335b9e2d_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a684e64c90a4846d403feab1874ac8327_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a684e64c90a4846d403feab1874ac8327_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespace_pz_g_ae1ae4d36f66c77879380ba73da8e20e3_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespace_pz_g_ae1ae4d36f66c77879380ba73da8e20e3_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_22.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_22.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_9.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_9.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/lacze__do__gnuplota_8hh__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/lacze__do__gnuplota_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_message_data__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_message_data__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/matrix3x3_8hh__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/matrix3x3_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a71b40611173c82709726b36715229179_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a71b40611173c82709726b36715229179_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_17.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_17.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/src_2cuboid_8cpp__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/src_2cuboid_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_8.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_8.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a7b0b3df5fe79d7ffa8fa138201476df1_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a7b0b3df5fe79d7ffa8fa138201476df1_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a458399aa2a8f4b3f00ccd5b272857ea1_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a458399aa2a8f4b3f00ccd5b272857ea1_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/dummy_8cpp__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/dummy_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_context_scope_base__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_context_scope_base__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_relational_comparator_a51062ad46cd23c982838a0a51df70512_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_relational_comparator_a51062ad46cd23c982838a0a51df70512_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a28da75fd01ab3d943436aa69876b7151_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a28da75fd01ab3d943436aa69876b7151_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp_a2a238d543002f5c1ee6199a7a737112f_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp_a2a238d543002f5c1ee6199a7a737112f_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/dir_d422163b96683743ed3963d4aac17747_dep.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/dir_d422163b96683743ed3963d4aac17747_dep.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_a154b77ebcd444831ba193b0b2536b854_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_a154b77ebcd444831ba193b0b2536b854_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_7.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_7.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix_a6b0ec6beb8dad325e977ed7831766b5c_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix_a6b0ec6beb8dad325e977ed7831766b5c_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_23.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_23.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a065f5b8402737cc62b0ad4f66d028335_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a065f5b8402737cc62b0ad4f66d028335_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a34bd48f57c0fd69c12bf4127a1cacd8f_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a34bd48f57c0fd69c12bf4127a1cacd8f_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_28.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_28.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a8059b137ef41cbe6c5d8160806a3cc63_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a8059b137ef41cbe6c5d8160806a3cc63_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_scene__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_scene__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_a290fa693e437cde00d1dc1637ca2968f_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_a290fa693e437cde00d1dc1637ca2968f_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a75931f11aa5275a45b99d201bd123bd4_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a75931f11aa5275a45b99d201bd123bd4_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_6.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_6.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/lacze__do__gnuplota_8hh__dep__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/lacze__do__gnuplota_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_abe5d1c1e7fa524aed089eccab57c05af_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_abe5d1c1e7fa524aed089eccab57c05af_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_34.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_34.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/vector3_d_8hh__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/vector3_d_8hh__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_test_case_a6642c3a1f8588e99b97d4d411c6c3cfb_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_test_case_a6642c3a1f8588e99b97d4d411c6c3cfb_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_29.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_29.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_test_case_a865f5906758263125b68b8d785a05ca1_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_test_case_a865f5906758263125b68b8d785a05ca1_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_a4f72e5830511589db778be42443eba57_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_a4f72e5830511589db778be42443eba57_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_40.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_40.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/src_2matrix_8cpp__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/src_2matrix_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a4027cb5407ce2ff132645e89bba97010_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a4027cb5407ce2ff132645e89bba97010_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/foo_8cpp_a14bcd2d544b22300bba3863251393e0f_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/foo_8cpp_a14bcd2d544b22300bba3863251393e0f_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2vector_8cpp__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2vector_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_50.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_50.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/vector_8hh__dep__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/vector_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_afa15b277b9a277793b7adf129e0128d9_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_afa15b277b9a277793b7adf129e0128d9_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_35.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_35.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_scene_ae5405a0c93e5a119a105ff17ba9feb98_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_scene_ae5405a0c93e5a119a105ff17ba9feb98_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_26.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_26.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_41.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_41.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2main_8cpp__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2main_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_51.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_51.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/scene_8hh__dep__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/scene_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/doctest_8h__dep__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/doctest_8h__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_context_scope_base__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_context_scope_base__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/vertices_8hh__dep__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/vertices_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_32.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_32.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_exception_translator__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_exception_translator__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ab56f4f5033407b30858e190309901ff2_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ab56f4f5033407b30858e190309901ff2_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_context_scope__inherit__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_context_scope__inherit__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a10950349b348fd3a3d4143e95337527c_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a10950349b348fd3a3d4143e95337527c_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_stream__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_stream__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a7817aba561f42fc42fdccb1b312c7678_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a7817aba561f42fc42fdccb1b312c7678_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/dir_df376d8eddb78be7048f3183f9c1c79f_dep.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/dir_df376d8eddb78be7048f3183f9c1c79f_dep.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_aa9617e74cc75e317f56da5e1fec51dc5_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_aa9617e74cc75e317f56da5e1fec51dc5_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a1d52aecd2ac7587ea1b8d5d2927847e8_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a1d52aecd2ac7587ea1b8d5d2927847e8_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_approx_a86f0d1b44c1cf095697f23ccdab00802_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_approx_a86f0d1b44c1cf095697f23ccdab00802_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid__coll__graph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid__coll__graph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder_a2af75dd1d8db8d3aa949d78025854085_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder_a2af75dd1d8db8d3aa949d78025854085_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/mpi__reporter_8h__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/mpi__reporter_8h__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_27.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_27.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/doctest__fwd_8h_a03d36bae0d7ed8dcce87834d61051290_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/doctest__fwd_8h_a03d36bae0d7ed8dcce87834d61051290_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_33.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_33.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp_a61d79fa79fb1b19a6265661e2efccd1b_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp_a61d79fa79fb1b19a6265661e2efccd1b_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a9adde1fae310e0d1a394cc1383495572_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a9adde1fae310e0d1a394cc1383495572_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_aab57a2f917b123829504e29c045d3597_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_aab57a2f917b123829504e29c045d3597_icgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2scene_8cpp__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2scene_8cpp__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a28b18901bd4b831e6418d4905d4836fd_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a28b18901bd4b831e6418d4905d4836fd_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp_a61d79fa79fb1b19a6265661e2efccd1b_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp_a61d79fa79fb1b19a6265661e2efccd1b_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder_ab3d55b158b3ae687f80bca94db6bb701_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder_ab3d55b158b3ae687f80bca94db6bb701_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/matrix_8hh__dep__incl.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/matrix_8hh__dep__incl.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_38.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_38.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a115f7c31ae1f3ad563671943d9ee4f4d_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a115f7c31ae1f3ad563671943d9ee4f4d_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_44.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_44.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder_a98c33e90242e2859255a79cb38489f3b_cgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder_a98c33e90242e2859255a79cb38489f3b_cgraph.png"'
+sh: 1: dot: not found
+error: Problems running dot: exit code=127, command='dot', arguments='"/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a90b2f1bbf67ee4da8e8ff0cf7516a06a_icgraph.dot" -Tpng -o "/home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a90b2f1bbf67ee4da8e8ff0cf7516a06a_icgraph.png"'
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/src_2cuboid_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_abb94f8a2dfc1af5358ea24ebda10d88c_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_abc87481328542dff0e3f8a55c842b44c_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a115f7c31ae1f3ad563671943d9ee4f4d_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a842f2eb8acb85c4d849e24d5e6b9d328_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_aaa8e4280d5662c04c96b9c040b21ad43_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_ae9d3237d068fbf36488973d855677c67_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a94faa06e586eead4466fa2bef334e3a9_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_abe04157d49d8c937f915d4c887df75b0_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a28b18901bd4b831e6418d4905d4836fd_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_aa708be1e2e3e83213920c0e3ef0502cc_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a62af2900096f9958b330f609335b9e2d_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a7597c4be3476bd536431a4414df9c320_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a44b7096ab36b923cd26664fe57755b5e_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_abe5d1c1e7fa524aed089eccab57c05af_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a684e64c90a4846d403feab1874ac8327_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_aba8eff2a50b9a930ec5ea3a010d769c9_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a5e7c7ae87d62b4e60cfe1f696a1f5146_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a75931f11aa5275a45b99d201bd123bd4_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2cuboid_8cpp_a1d52aecd2ac7587ea1b8d5d2927847e8_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/cuboid_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/cuboid_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/doctest_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/doctest_8cpp_a7abd20a8cfb67ea45b4ec644c14b5a37_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/doctest_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/doctest_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/doctest__fwd_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/doctest__fwd_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/doctest__fwd_8h_a03d36bae0d7ed8dcce87834d61051290_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/doctest__mpi_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/doctest__util_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/dummy_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/dummy_8cpp_a19d977a4cbc8b8a06353d9a1a605fe3c_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/example_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/example_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/example_config_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/foo_8cpp_a14bcd2d544b22300bba3863251393e0f_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/lacze__do__gnuplota_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/lacze__do__gnuplota_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/lacze__do__gnuplota_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp_a61d79fa79fb1b19a6265661e2efccd1b_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp_a61d79fa79fb1b19a6265661e2efccd1b_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/app_2main_8cpp_a2a238d543002f5c1ee6199a7a737112f_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/build_2_c_make_files_2___c_make_l_t_o_test-_c_x_x_2src_2main_8cpp_a14bcd2d544b22300bba3863251393e0f_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/build_2_c_make_files_2___c_make_l_t_o_test-_c_x_x_2src_2main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2main_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/src_2matrix_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_a4f72e5830511589db778be42443eba57_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_a6ad6ed38fad73699bc718c248bccfc6d_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_a7c363141b7afdf0f71852393dbdf21ca_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_a154b77ebcd444831ba193b0b2536b854_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2matrix_8cpp_ada1c21eff2277caf5b594bf70752a8f4_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/matrix_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/matrix_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/matrix3x3_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/matrix3x3_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/mpi__reporter_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/src_2scene_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2scene_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2scene_8cpp_a1fdaff8e7e53425c556aa40c4ccf8625_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/scene_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/scene_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/size_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/src_2vector_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2vector_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/tests_2vector_8cpp_ada1c21eff2277caf5b594bf70752a8f4_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/vector_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/vector_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/vector3_d_8hh__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/vector3_d_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/vertices_8hh__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_ad14c56f7bc768189d039828aa871f60b_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_a24b636e34e0d79ddddf94f9902a4c48c_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_acdf5282bcca88db933cfa0ac8ac851b9_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_acdef9c08c191987052fe12325c550ac7_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_a290fa693e437cde00d1dc1637ca2968f_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_cuboid_aa9617e74cc75e317f56da5e1fec51dc5_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_dummy_a6453272d296d2ddf672e9ab0e7731c82_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix_abcf88ddb8baba8268dab5ae521e48e36_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix_a6b0ec6beb8dad325e977ed7831766b5c_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix_a83b5864d067a928d0da70800333f4976_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_matrix_af5a2c629a4ded5bb85c56c0908188560_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_scene__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_scene_ae5405a0c93e5a119a105ff17ba9feb98_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_vector__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ad01ed889a01aa24f6efab31f8fd4327e_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ab56f4f5033407b30858e190309901ff2_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_aecddb31b1dc613674128b2b386493385_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a426c38f4b2561bf6cfb10a370bddc3da_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_aab57a2f917b123829504e29c045d3597_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ab9a88e4c19857cd86a0f037d27bcad72_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_afa15b277b9a277793b7adf129e0128d9_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a7817aba561f42fc42fdccb1b312c7678_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a27c6c308e814ad9384499bafc03f9e39_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ae332e5e775f83a532884303780f79f9f_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_acef5990b03a973c74ff2dd6cfc112913_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_ac32accb42e937cf870de2f6865ea236a_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a8e23e6bb4c6982688652060dbe41385d_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a9e878a811f7bf0a615b3a39de3004673_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a360d10b305d4e64d753e99484308edbd_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a468ff6c2b0a692bcf88a7a97a5de0a53_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_a468ff6c2b0a692bcf88a7a97a5de0a53_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_approx_a86f0d1b44c1cf095697f23ccdab00802_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_approx_af8df6b0af00fd875e5b6a0c30b86f636_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_approx_aae907c5ea1c4ac94e134db9e35da7dce_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_approx_a62185fd4c09a63dab61bd893574d8473_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_assert_data__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_assert_data__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a881bc2d0fe207d672e1debe830768a98_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a60ad57a46c19db2b142468c3acac448a_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_ad55229220bf9ca74e6e0c6323bf672e1_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_ad55229220bf9ca74e6e0c6323bf672e1_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a90b2f1bbf67ee4da8e8ff0cf7516a06a_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a8059b137ef41cbe6c5d8160806a3cc63_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a4352ffc196c4ba56045270e45baa2754_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a95e7a0230c5897f0eae36718f51d2f05_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_context_a95e7a0230c5897f0eae36718f51d2f05_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_context_options__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_i_context_scope__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_i_context_scope_a067a2f9a9e53b010eb7b0a2ab88c76fd_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_i_context_scope_aa99357c233d6a040451628bc6a6c6c2e_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_message_data__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_message_data__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1mpi__sub__comm_a996f4afe7d50905d7b837f5a6163ecb9_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_query_data__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_ab18d26f6c9e728c2fac77a501b8ca5f5_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_af5dce5deeb8f25a4866efdff75e92975_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a607c6977b193fecf29622110e6081625_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a607c6977b193fecf29622110e6081625_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a607c6977b193fecf29622110e6081625_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a607c6977b193fecf29622110e6081625_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_adad8703f08950d173d2cb1426391fcdf_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_aef87d1f106d32d8c31af87335b44164d_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a9adde1fae310e0d1a394cc1383495572_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a6ddb6cf1b744a0ae1d4e26b3c8dfa827_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_ad1df797f12cd140e3d1739f2b30b64d2_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a1979700c536cfe9b5fecc328245f74ca_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_adf69290bc23e8c7bf60a9bcf765ebc10_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a801d3d8ba364be7e05f0e27447521b8b_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_acd24518770a530bbfd6cd21297ada407_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1_string_a9fbc7b09f1660b236f12fc2adce6183d_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_string_maker__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_string_maker__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_string_maker_3_01_r_01_c_1_1_5_01_4_a06144903aacd73ed31c2fb043be8abb0_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_string_maker_3_01_r_01_c_1_1_5_01_4_a06144903aacd73ed31c2fb043be8abb0_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_string_maker_3_01_t_01_5_01_4_a79dfd2e72f48a1d9941b924d6ac23104_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_string_maker_3_01_t_01_5_01_4_a79dfd2e72f48a1d9941b924d6ac23104_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_subcase_signature__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_subcase_signature_a07364f9dddf615f51e15f09b994d4bef_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_test_case_data__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_test_case_data__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1_test_case_exception__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a570279a22ca888528e87a426853a0288_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_acec9ff072dd86af95225a8beb9c57298_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_acec9ff072dd86af95225a8beb9c57298_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_aaeabe9bfc5ec6b94d8679e8d66d82fb1_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a0ff832be68bf666d856aefd539e1ce81_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_ab4df12a4ff9fad5f16edcc1c54f6c4fc_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a7b0b3df5fe79d7ffa8fa138201476df1_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a013828c4e677241cc26aeea33f762710_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a4027cb5407ce2ff132645e89bba97010_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a28da75fd01ab3d943436aa69876b7151_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_adb894f73b88fb3b39d6c48d80451f5ff_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a3887426da16e0d12e6f0e270a767a6a5_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a828e011bb6028ab94eb14a3c7d8bd2c4_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_ae79cb8df06d35468dd0ba9f04c85802c_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a6879a79aea397a22e296e4afd0a90e3b_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a6879a79aea397a22e296e4afd0a90e3b_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a60ffd50b9ee7adfcafc078f333aac8b6_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a71b40611173c82709726b36715229179_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a71b40611173c82709726b36715229179_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest_1_1detail_a5343d1b26df7f86767d5e7026c03bf0f_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_context_scope__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_context_scope__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_context_scope_base__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_context_scope_base__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_exception_translator__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/classdoctest_1_1detail_1_1_exception_translator__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_i_exception_translator__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder_a93cb6f180968d38cb0f18b08ec6c9000_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder_a9bcc5d56e1764a7e07efebca55e43cce_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder_a1b8102a492082b096a911e6d0964c591_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder_a1b8102a492082b096a911e6d0964c591_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_message_builder_a3a65c5e39a0c04ae8e2a7c34997a2e4d_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_relational_comparator_a51062ad46cd23c982838a0a51df70512_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_relational_comparator_a51062ad46cd23c982838a0a51df70512_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_relational_comparator_a51062ad46cd23c982838a0a51df70512_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_relational_comparator_a51062ad46cd23c982838a0a51df70512_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder_ab3d55b158b3ae687f80bca94db6bb701_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder_ab3d55b158b3ae687f80bca94db6bb701_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder_a2af75dd1d8db8d3aa949d78025854085_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder_a03686f862471728c2980d72e02980213_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder_a98c33e90242e2859255a79cb38489f3b_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_result_builder_a98c33e90242e2859255a79cb38489f3b_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_maker_base__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_maker_base_3_01true_01_4_ae1a11dee413117f36e335677589b047f_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_maker_base_3_01true_01_4_ae1a11dee413117f36e335677589b047f_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_stream__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_stream__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_string_stream_base__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_subcase__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_test_case__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_test_case__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_test_case_a6642c3a1f8588e99b97d4d411c6c3cfb_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/structdoctest_1_1detail_1_1_test_case_a865f5906758263125b68b8d785a05ca1_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespacedoctest__detail__test__suite__ns_a63d04c2e0ba35dff1e33cf0a24ec66c8_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/namespace_pz_g_ae1ae4d36f66c77879380ba73da8e20e3_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a34bd48f57c0fd69c12bf4127a1cacd8f_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a34bd48f57c0fd69c12bf4127a1cacd8f_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a065f5b8402737cc62b0ad4f66d028335_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a88324c53a70846fb6bc9d918ce21fd56_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a94d8527fd78048ed6cb32ffb29e5f903_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a458399aa2a8f4b3f00ccd5b272857ea1_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a855b8338bfe3e5d294d719f24b11090e_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a4308151b54e105d302803146a3238699_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_ab0486db3166d8db6580a221079af241f_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/class_pz_g_1_1_lacze_do_g_n_u_plota_a10950349b348fd3a3d4143e95337527c_icgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/dir_d422163b96683743ed3963d4aac17747_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/dir_df376d8eddb78be7048f3183f9c1c79f_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/dir_743cb49ce7a44135ae45e5ad5aee6a3e_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/dir_68267d1309a1af8e8297ef4c3efbcdba_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/dir_59425e443f801f1f2fd8bbe4959a3ccf_dep.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_0.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_1.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_2.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_3.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_4.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_5.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_6.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_7.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_8.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_9.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_10.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_11.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_12.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_13.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_14.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_15.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_16.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_17.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_18.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_19.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_20.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_21.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_22.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_23.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_24.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_25.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_26.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_27.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_28.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_29.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_30.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_31.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_32.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_33.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_34.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_35.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_36.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_37.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_38.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_39.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_40.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_41.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_42.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_43.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_44.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_45.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_46.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_47.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_48.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_49.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_50.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_51.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_52.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_53.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_54.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file /home/lapidary/zad4-DamianJanusz3/dox/html/inherit_graph_55.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+*** Doxygen has finished

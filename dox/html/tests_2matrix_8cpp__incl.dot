@@ -1,0 +1,38 @@
+digraph "matrix.cpp"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="matrix.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="../tests/doctest/doctest.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$doctest_8h.html",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="signal.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="matrix.hh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$matrix_8hh.html",tooltip="Definicja klasy Matrix."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="size.hh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$size_8hh.html",tooltip=" "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="vector.hh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$vector_8hh.html",tooltip="Definicja klasy Vector."];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="iostream",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="iomanip",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="cmath",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="initializer_list",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="cstdlib",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="math.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="matrix3x3.hh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$matrix3x3_8hh.html",tooltip="Uszczególnienie szablonu dla typu double i rozmiaru 3."];
+  Node13 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,4 @@
+/home/lapidary/zad4-DamianJanusz3/prj/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
+/home/lapidary/zad4-DamianJanusz3/prj/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/home/lapidary/zad4-DamianJanusz3/prj/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/home/lapidary/zad4-DamianJanusz3/prj/build/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir

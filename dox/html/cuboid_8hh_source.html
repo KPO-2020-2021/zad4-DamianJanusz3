@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Obroty 3D: Plik źródłowy cuboid.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Obroty 3D
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.17 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','Szukaj');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">cuboid.hh</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="cuboid_8hh.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="size_8hh.html">size.hh</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="matrix_8hh.html">matrix.hh</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="vector_8hh.html">vector.hh</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;cstdlib&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;math.h&gt;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="vertices_8hh.html">vertices.hh</a>&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_cuboid.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_cuboid.html">Cuboid</a> {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_cuboid.html#a062f568a9ad5be9eafb6a7ed19fa82f6">   24</a></span>&#160;    <a class="code" href="class_vector.html">Vector&lt;double,SIZE&gt;</a> <a class="code" href="class_cuboid.html#a062f568a9ad5be9eafb6a7ed19fa82f6">vertices</a> [<a class="code" href="vertices_8hh.html#aedc60ba381a79eccf17036106cd6921b">VERTICES</a>];               </div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_cuboid.html#a9d07d177ad8c3c0d26f3665767c9667c">   25</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="class_cuboid.html#a9d07d177ad8c3c0d26f3665767c9667c">leng</a> [<a class="code" href="vertices_8hh.html#a5f908205348e5d622656b1a4ea8c29ca">SIDES</a>];</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="class_cuboid.html#a1abf60e93d024b7a01ee5b1a48f1f08a">Cuboid</a>(<a class="code" href="class_vector.html">Vector&lt;double,SIZE&gt;</a> [<a class="code" href="vertices_8hh.html#aedc60ba381a79eccf17036106cd6921b">VERTICES</a>]);            </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="class_cuboid.html#a1abf60e93d024b7a01ee5b1a48f1f08a">Cuboid</a>(<span class="keywordtype">double</span> tmp[<a class="code" href="vertices_8hh.html#a5f908205348e5d622656b1a4ea8c29ca">SIDES</a>]);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="class_cuboid.html#a1abf60e93d024b7a01ee5b1a48f1f08a">Cuboid</a>();                               </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="class_cuboid.html">Cuboid</a> <a class="code" href="class_cuboid.html#ad14c56f7bc768189d039828aa871f60b">length</a> (<a class="code" href="class_cuboid.html">Cuboid</a> tmp) ; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keyword">const</span> <a class="code" href="class_vector.html">Vector&lt;double,SIZE&gt;</a> &amp;<a class="code" href="class_cuboid.html#a703a4bd58b385aa9def9b12043c2fc3f">operator () </a>(<span class="keywordtype">int</span> index) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="class_vector.html">Vector&lt;double,SIZE&gt;</a> &amp;<a class="code" href="class_cuboid.html#a703a4bd58b385aa9def9b12043c2fc3f">operator () </a>(<span class="keywordtype">int</span> index);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> &amp;<a class="code" href="class_cuboid.html#a349e31f06497e1bfbc041784478a64aa">operator [] </a>(<span class="keywordtype">int</span> index) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">double</span> &amp;<a class="code" href="class_cuboid.html#a349e31f06497e1bfbc041784478a64aa">operator[]</a>(<span class="keywordtype">int</span> index);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">bool</span>  <a class="code" href="class_cuboid.html#a1b437c10ba2fc0202f00e321e91743a9">operator == </a>( <a class="code" href="class_cuboid.html">Cuboid</a> m);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="class_cuboid.html">Cuboid</a> <a class="code" href="class_cuboid.html#acdf5282bcca88db933cfa0ac8ac851b9">move</a> ( <a class="code" href="class_vector.html">Vector&lt;double,SIZE&gt;</a> move1);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="class_cuboid.html">Cuboid</a> <a class="code" href="class_cuboid.html#a290fa693e437cde00d1dc1637ca2968f">rotate</a> (<a class="code" href="class_matrix.html">Matrix&lt;double, SIZE&gt;</a> m , <span class="keywordtype">int</span> amount);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_cuboid.html#aa9617e74cc75e317f56da5e1fec51dc5">showlength</a> (<a class="code" href="class_cuboid.html">Cuboid</a> tmp, <a class="code" href="doctest_8h.html#a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</a>&amp; strmo) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_cuboid.html#acdef9c08c191987052fe12325c550ac7">read</a>( std::istream&amp; strmi, <a class="code" href="doctest_8h.html#a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</a>&amp; strmo);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="class_vector.html">Vector&lt;double,SIZE&gt;</a> <a class="code" href="class_cuboid.html#a24b636e34e0d79ddddf94f9902a4c48c">mid</a>();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;};</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<a class="code" href="doctest_8h.html#a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</a> &amp;<a class="code" href="cuboid_8hh.html#aacb0b2cc90b9a9ab99db803b42e37487">operator &lt;&lt; </a>(<a class="code" href="doctest_8h.html#a116af65cb5e924b33ad9d9ecd7a783f3">std::ostream</a> &amp;out, <a class="code" href="class_cuboid.html">Cuboid</a> <span class="keyword">const</span> &amp;tmp);</div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="aclass_cuboid_html_a349e31f06497e1bfbc041784478a64aa"><div class="ttname"><a href="class_cuboid.html#a349e31f06497e1bfbc041784478a64aa">Cuboid::operator[]</a></div><div class="ttdeci">const double &amp; operator[](int index) const</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00322">src/cuboid.cpp:322</a></div></div>
+<div class="ttc" id="avertices_8hh_html_a5f908205348e5d622656b1a4ea8c29ca"><div class="ttname"><a href="vertices_8hh.html#a5f908205348e5d622656b1a4ea8c29ca">SIDES</a></div><div class="ttdeci">constexpr int SIDES</div><div class="ttdef"><b>Definition:</b> <a href="vertices_8hh_source.html#l00004">vertices.hh:4</a></div></div>
+<div class="ttc" id="avector_8hh_html"><div class="ttname"><a href="vector_8hh.html">vector.hh</a></div><div class="ttdoc">Definicja klasy Vector.</div></div>
+<div class="ttc" id="asize_8hh_html"><div class="ttname"><a href="size_8hh.html">size.hh</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a24b636e34e0d79ddddf94f9902a4c48c"><div class="ttname"><a href="class_cuboid.html#a24b636e34e0d79ddddf94f9902a4c48c">Cuboid::mid</a></div><div class="ttdeci">Vector&lt; double, SIZE &gt; mid()</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00278">src/cuboid.cpp:278</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_ad14c56f7bc768189d039828aa871f60b"><div class="ttname"><a href="class_cuboid.html#ad14c56f7bc768189d039828aa871f60b">Cuboid::length</a></div><div class="ttdeci">Cuboid length(Cuboid tmp)</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00070">src/cuboid.cpp:70</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a703a4bd58b385aa9def9b12043c2fc3f"><div class="ttname"><a href="class_cuboid.html#a703a4bd58b385aa9def9b12043c2fc3f">Cuboid::operator()</a></div><div class="ttdeci">const Vector&lt; double, SIZE &gt; &amp; operator()(int index) const</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00296">src/cuboid.cpp:296</a></div></div>
+<div class="ttc" id="adoctest_8h_html_a116af65cb5e924b33ad9d9ecd7a783f3"><div class="ttname"><a href="doctest_8h.html#a116af65cb5e924b33ad9d9ecd7a783f3">ostream</a></div><div class="ttdeci">basic_ostream&lt; char, char_traits&lt; char &gt; &gt; ostream</div><div class="ttdef"><b>Definition:</b> <a href="doctest_8h_source.html#l00425">doctest.h:425</a></div></div>
+<div class="ttc" id="amatrix_8hh_html"><div class="ttname"><a href="matrix_8hh.html">matrix.hh</a></div><div class="ttdoc">Definicja klasy Matrix.</div></div>
+<div class="ttc" id="aclass_cuboid_html_acdef9c08c191987052fe12325c550ac7"><div class="ttname"><a href="class_cuboid.html#acdef9c08c191987052fe12325c550ac7">Cuboid::read</a></div><div class="ttdeci">void read(std::istream &amp;strmi, std::ostream &amp;strmo)</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00157">src/cuboid.cpp:157</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a9d07d177ad8c3c0d26f3665767c9667c"><div class="ttname"><a href="class_cuboid.html#a9d07d177ad8c3c0d26f3665767c9667c">Cuboid::leng</a></div><div class="ttdeci">double leng[SIDES]</div><div class="ttdef"><b>Definition:</b> <a href="cuboid_8hh_source.html#l00025">cuboid.hh:25</a></div></div>
+<div class="ttc" id="acuboid_8hh_html_aacb0b2cc90b9a9ab99db803b42e37487"><div class="ttname"><a href="cuboid_8hh.html#aacb0b2cc90b9a9ab99db803b42e37487">operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;out, Cuboid const &amp;tmp)</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00350">src/cuboid.cpp:350</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a290fa693e437cde00d1dc1637ca2968f"><div class="ttname"><a href="class_cuboid.html#a290fa693e437cde00d1dc1637ca2968f">Cuboid::rotate</a></div><div class="ttdeci">Cuboid rotate(Matrix&lt; double, SIZE &gt; m, int amount)</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00138">src/cuboid.cpp:138</a></div></div>
+<div class="ttc" id="aclass_vector_html"><div class="ttname"><a href="class_vector.html">Vector&lt; double, SIZE &gt;</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a062f568a9ad5be9eafb6a7ed19fa82f6"><div class="ttname"><a href="class_cuboid.html#a062f568a9ad5be9eafb6a7ed19fa82f6">Cuboid::vertices</a></div><div class="ttdeci">Vector&lt; double, SIZE &gt; vertices[VERTICES]</div><div class="ttdef"><b>Definition:</b> <a href="cuboid_8hh_source.html#l00024">cuboid.hh:24</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a1abf60e93d024b7a01ee5b1a48f1f08a"><div class="ttname"><a href="class_cuboid.html#a1abf60e93d024b7a01ee5b1a48f1f08a">Cuboid::Cuboid</a></div><div class="ttdeci">Cuboid()</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00024">src/cuboid.cpp:24</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_aa9617e74cc75e317f56da5e1fec51dc5"><div class="ttname"><a href="class_cuboid.html#aa9617e74cc75e317f56da5e1fec51dc5">Cuboid::showlength</a></div><div class="ttdeci">void showlength(Cuboid tmp, std::ostream &amp;strmo) const</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00184">src/cuboid.cpp:184</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_acdf5282bcca88db933cfa0ac8ac851b9"><div class="ttname"><a href="class_cuboid.html#acdf5282bcca88db933cfa0ac8ac851b9">Cuboid::move</a></div><div class="ttdeci">Cuboid move(Vector&lt; double, SIZE &gt; move1)</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00122">src/cuboid.cpp:122</a></div></div>
+<div class="ttc" id="aclass_matrix_html"><div class="ttname"><a href="class_matrix.html">Matrix</a></div><div class="ttdef"><b>Definition:</b> <a href="matrix_8hh_source.html#l00023">matrix.hh:23</a></div></div>
+<div class="ttc" id="aclass_cuboid_html_a1b437c10ba2fc0202f00e321e91743a9"><div class="ttname"><a href="class_cuboid.html#a1b437c10ba2fc0202f00e321e91743a9">Cuboid::operator==</a></div><div class="ttdeci">bool operator==(Cuboid m)</div><div class="ttdef"><b>Definition:</b> <a href="src_2cuboid_8cpp_source.html#l00102">src/cuboid.cpp:102</a></div></div>
+<div class="ttc" id="avertices_8hh_html"><div class="ttname"><a href="vertices_8hh.html">vertices.hh</a></div></div>
+<div class="ttc" id="aclass_cuboid_html"><div class="ttname"><a href="class_cuboid.html">Cuboid</a></div><div class="ttdef"><b>Definition:</b> <a href="cuboid_8hh_source.html#l00021">cuboid.hh:21</a></div></div>
+<div class="ttc" id="avertices_8hh_html_aedc60ba381a79eccf17036106cd6921b"><div class="ttname"><a href="vertices_8hh.html#aedc60ba381a79eccf17036106cd6921b">VERTICES</a></div><div class="ttdeci">constexpr int VERTICES</div><div class="ttdef"><b>Definition:</b> <a href="vertices_8hh_source.html#l00003">vertices.hh:3</a></div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.17
+</small></address>
+</body>
+</html>
